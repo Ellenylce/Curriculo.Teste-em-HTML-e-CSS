@@ -1,0 +1,118 @@
+<!DOCTYPE html> <!--Indica que o documento está na versão atualizada HTML 5-->
+<html lang="PT-BR"> <!--Define o idioma do documento: português-->
+<head> <!--Cabeçalho: contèm metados e configurações para a pgn: não é exibido pelo navegador-->
+    <meta charset="UTF-8"> <!--É um metadado com conjunto de caracteres e simbolos universais usado por todos idiomas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--É um metadado que configura o
+    documento a ser responsivo em diferentes dispositivos-->
+    <title>Currículo Teste</title> <!--Título para ser exibido na aba do navegador-->
+
+    <style> /*Tag CSS*/
+        *{ /*por padrao vai seguir essas formatações toda a pagina*/
+            font-family:"arial",sans serif;
+        }
+        header{  /*setando o header: estilizando o cabeçalho*/
+            background-color: brown; /*cor de fundo*/
+            color:aliceblue;
+            text-align:center; /*Alinhamento de texto*/
+            padding: 25px; /*preenchimento: espaçamento interno*/
+        }
+        header img{
+            border-radius:50%; /*Define arredondamento (raio) da borda*/
+            width: 180px; /*largura*/
+            height: 160px; /*altura*/
+            border: 1px solid #fff; /*borda: espessura, tipo da borda, cor*/
+        }
+        body{
+            background-color: #fff;
+            padding: 0%;
+            margin: 0%; /*margem: espaçamento externo*/
+            color:black;
+            
+        }
+        .section{
+            background-color:#e6dede;
+            padding:20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(255,125, 125,0.1); /*sombra na caixa: deslocamento horizontal, Vertical, raio de desfoque, cor da sombra*/
+
+        }
+        .section a{ /*setando a tag <a>(âncora)*/
+            text-decoration:none; /*remove todas as decorações de texto:sublilhado, linhas em texto..*/
+            color:black; /*cor da letra*/
+        }
+        .section a:hover{ /*:hover- aplia estilo quando passa o cursor sobre o elemento*/
+            color:blue;
+
+        }
+        ul{  /*lista desordenada*/
+            list-style:none; /*remove marcadores da lista*/
+        }
+
+        footer{ /*rodapé*/
+            background-color:brown;/*cor de fundo*/
+            width: 100%; /*largura*/
+            padding: 10px 0; /*preenchimento/ espaçamento interno*/
+            text-align:center; /*alinhamento de texto*/
+            color:#fff; /*cor da fonte*/
+            bottom:0; /*fixa o elemento no posicionamento final da página: não move o elemento, fica no mesmo lugar*/
+        }
+        
+    </style>
+</head>
+
+
+<body> <!--Corpo: vai ser executado-->
+    <main> <!--conteudo principal-->
+       <header> <!--cabeçalho-->
+        <img src ="Prince-of-Persia.jpg">
+        <h1>Tom Lael Garcia</h1>
+
+       </header><!--finaliza cabeçalho-->
+
+       <section class = "section"> <!--seção: Sobre mim-->
+        <h2>Sobre mim</h2>
+        <p>Possuo 2 décadas de experiência como assassino de aluguel. Sou um profissional eficiente e proativo. Corro atrás dos meus objetivos com garra e afinco</p>
+       </section>
+
+       <section class = "section"> <!--seção: Educação-->
+        <h2>Educação</h2>
+        <p> Nível Superior (Completo)</p>
+        <p>Pós-Graduação: Técnicas de assassinatos sem deixar rastros 
+        </p>
+        <p>School of Killers: Graduação Assassinatos silencioso</p>
+        </p>
+       </section>
+
+       <section class = "section"> <!--seção: Habilidades-->
+        <h2>Hard Skill</h2>
+        <h3> Técnicas</h3>
+    
+        <ul>
+            <li>Super Pulo</li>
+            <li>Corte Fatal</li>
+            <li>Fuga Silenciosa</li>
+            <li>Manobras com Adagas</li>
+            <li> Habilidades com Espadas</li>
+        </ul>
+        <h3>Soft Skill</h3>
+        <ul>
+            <li>Focado</li>
+            <li>Ardiloso</li>
+            <li>Veloz</li>
+            <li>Estratégista</li>
+            <li>Destemido</li>
+        </ul>
+       </section>
+
+       <section class = "section"> <!--Seção: Projetos-->
+        <h2>Projeto</h2>
+        <a href = "https://inspiraja.app.toolzz.com.br/play/player/96203838">Prince of Persia - parte 1 </a>
+       </section>
+    </main>
+    <footer>
+         <p>Desenvolvido por Ellen Karla</p> 
+          
+    </footer>
+</body>
+</html>
